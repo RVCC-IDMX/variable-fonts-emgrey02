@@ -14,6 +14,7 @@
     font-weight: type.$display-weight;
     font-size: type.$display-title-size;
     letter-spacing: type.$display-spacing;
+    font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
     text-align: center;
   }
 
@@ -26,11 +27,13 @@
     margin-bottom: 1rem;
     font-size: type.$body-font-size;
     font-weight: type.$body-font-weight;
+    font-variation-settings: 'opsz' 9, 'SOFT' 34.8, 'WONK' 1;
     padding: 0rem 5vw;
 
     &--first {
       font-style: italic;
       font-weight: type.$body-italic-weight;
+      font-variation-settings: 'opsz' 97, 'WONK' 0.29, 'SOFT' 25;
       letter-spacing: 0.15em;
     }
   }
